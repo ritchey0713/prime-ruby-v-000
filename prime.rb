@@ -1,2 +1,3 @@
 def prime?(int)
+
 end
