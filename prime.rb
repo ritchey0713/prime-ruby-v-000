@@ -4,3 +4,4 @@ if Prime.prime?()
 else 
   false 
 end
+end
