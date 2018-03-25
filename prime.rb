@@ -1,5 +1,9 @@
-def prime?(int)
-
- Math.sqrt(int).to_i.downto(2).each {|i| return false if int % i <= 0}
-  true
+def prime? (n)
+    if n <= 1
+        false
+    elsif n == 2
+        true
+    else 
+        (2..n/2).none? { |i| n % i == 0}
+    end
 end
